@@ -1,0 +1,5 @@
+E:\Github Projects\Rust-Exercise-Learn\deck\target\debug\deps\libdeck-2d09425949e4c08f.rmeta: src/main.rs
+
+E:\Github Projects\Rust-Exercise-Learn\deck\target\debug\deps\deck-2d09425949e4c08f.d: src/main.rs
+
+src/main.rs:
