@@ -20,9 +20,13 @@ impl Deck {
         let deck = Deck { cards };
         return deck;
     }
+
+    fn shuffle(&self) {}
 }
 
 fn main() {
     let deck = Deck::new();
+
+    deck.shuffle();
     println!("Here is your deck {:#?}", deck);
 }
