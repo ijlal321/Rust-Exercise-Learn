@@ -52,6 +52,16 @@ impl Catalog {
     fn add(&mut self, media: Media) {
         self.items.push(media);
     }
+
+    fn get_by_index(&self, index: usize) -> Option<&Media> {
+        if self.items.len() > index {
+            // Good! We have somethign to return
+            Some(&self.items[index])
+        } else {
+            // Bad! We don't have anything to return!!!
+            None
+        }
+    }
 }
 
 fn print_media(media: Media) {
@@ -85,5 +95,22 @@ fn main() {
     catalog.add(podcast);
     catalog.add(placeholder);
 
-    println!("{:#?}", catalog);
+    // let item = catalog.get_by_index(40);
+
+    // println!("{:#?}", item);
+
+    match catalog.get_by_index(9999) {
+        Some(value) => {
+            println!("Item: {:#?}", value);
+        }
+        None => {
+            println!("No value here!");
+        }
+    }
+
+    // if let Some(value) = catalog.get_by_index(0) {
+    //     println!("Item in pattern match: {:#?}", value)
+    // } else {
+    //     println!("No value!!!!!!!!!!");
+    // }
 }
