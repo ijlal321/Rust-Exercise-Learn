@@ -1,1 +1,1 @@
-E:\Github\ Projects\Rust-Exercise-Learn\media\target\debug\media.exe: E:\Github\ Projects\Rust-Exercise-Learn\media\src\main.rs
+E:\Github\ Projects\Rust-Exercise-Learn\media\target\debug\media.exe: E:\Github\ Projects\Rust-Exercise-Learn\media\src\content\catalog.rs E:\Github\ Projects\Rust-Exercise-Learn\media\src\content\media.rs E:\Github\ Projects\Rust-Exercise-Learn\media\src\content\mod.rs E:\Github\ Projects\Rust-Exercise-Learn\media\src\main.rs
